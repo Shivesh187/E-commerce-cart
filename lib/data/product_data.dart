@@ -1,0 +1,66 @@
+import '../models/product.dart';
+
+final List<Product> dummyProducts = [
+  Product(
+    id: '1',
+    name: 'Nike Air Max 270',
+    description: 'Iconic Air Max design with exceptional cushioning and breathable upper for all-day comfort.',
+    price: 149.99,
+    imageUrl: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600',
+    category: 'Shoes',
+    rating: 4.8,
+    specs: ['Size: 7-12', 'Color: Black/Red', 'Material: Mesh + Rubber'],
+  ),
+  Product(
+    id: '2',
+    name: 'Sony WH-1000XM5',
+    description: 'Industry-leading noise cancellation with premium sound quality and 30-hour battery life.',
+    price: 349.99,
+    imageUrl: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600',
+    category: 'Electronics',
+    rating: 4.9,
+    specs: ['Noise Cancelling', 'Bluetooth 5.2', '30h Battery'],
+  ),
+  Product(
+    id: '3',
+    name: 'Apple Watch Series 9',
+    description: 'Advanced health features, always-on display and seamless integration with iPhone.',
+    price: 399.00,
+    imageUrl: 'https://images.pexels.com/photos/5081931/pexels-photo-5081931.jpeg',
+    category: 'Wearables',
+    rating: 4.7,
+    specs: ['GPS + Cellular', 'Always-On Display', 'Blood Oxygen'],
+  ),
+  Product(
+    id: '4',
+    name: 'Levi\'s 501 Original',
+    description: 'Classic straight-fit jeans that never go out of style. Made with premium denim.',
+    price: 89.50,
+    imageUrl: 'https://images.unsplash.com/photo-1542272604-787c3835535d?w=600',
+    category: 'Fashion',
+    rating: 4.6,
+    specs: ['Fit: Straight', 'Material: 100% Cotton', 'Wash: Medium'],
+  ),
+  Product(
+    id: '5',
+    name: 'MacBook Air M3',
+    description: 'Ultra-thin laptop powered by the blazing-fast M3 chip. Perfect for work and creativity.',
+    price: 1099.00,
+    imageUrl: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600',
+    category: 'Electronics',
+    rating: 4.9,
+    specs: ['M3 Chip', '13.6" Liquid Retina', '18h Battery'],
+  ),
+  Product(
+    id: '6',
+    name: 'Adidas Ultraboost 22',
+    description: 'Responsive Boost midsole with Primeknit upper for ultimate energy return.',
+    price: 180.00,
+    imageUrl: 'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600',
+    category: 'Shoes',
+    rating: 4.7,
+    specs: ['Boost Technology', 'Primeknit', 'Continental Rubber'],
+  ),
+];
+
+final List<String> categories = ['All', 'Shoes', 'Electronics', 'Fashion', 'Wearables'];
